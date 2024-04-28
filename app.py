@@ -4,10 +4,10 @@ import streamlit as st
 
 car_data = pd.read_csv('vehicles_us.csv') # leer los datos
 
-st.header('Proyecto Sprint 4: Software Development Tools')
+st.header('Proyecto Sprint 5: Herramientas de desarrollo de software')
 
 # Agregar un párrafo debajo del encabezado
-st.write("Este es un análisis de datos de vehículos. Puedes seleccionar dos tipos de visualizaciones a continuación.")
+st.write("Este es un análisis de datos de vehículos. Se pueden seleccionar dos tipos de visualizaciones a continuación.")
 
 hist_checkbox = st.checkbox('Histograma de millage de vehículos', key= 'hist_checkbox')
 scatter_checkbox = st.checkbox('Diagrama de dispersión de precio vs millaje', key='scatter_checkbox')
